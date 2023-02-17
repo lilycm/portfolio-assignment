@@ -71,8 +71,7 @@ transition: all 0.2s;
     height: 20vw;
 }
 .images{
-    transition: all 0.3s;
-    position: relative;
+    transition: all 1s;
 }
 .images img:hover{
     transform: scale(1.15);
