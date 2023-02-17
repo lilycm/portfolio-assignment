@@ -69,10 +69,22 @@ transition: all 0.2s;
 .images img{
     width: 30vw;
     height: 20vw;
+    position: relative;
 }
-.images{
+.images .img:hover{
+    transform: scale(1.15);
     transition: all 1s;
 }
-.images img:hover{
-    transform: scale(1.15);
-}
+.images2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;}
+.images2 img{
+        width: 30vw;
+        height: 20vw;
+        position: relative;
+    }
+    .images2 .img:hover{
+        transform: scale(1.15);
+        transition: all 1s;
+    }
