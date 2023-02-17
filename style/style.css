@@ -24,3 +24,13 @@ transition: all 0.2s;
     justify-content: space-evenly;
     margin-left: 55px;
 }
+.progress-title{
+    width: 100%;
+    height: auto;
+}
+.progress-title a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+}
