@@ -24,6 +24,9 @@ transition: all 0.2s;
     justify-content: space-evenly;
     margin-left: 55px;
 }
+.works .card:hover{
+    border: 1px solid goldenrod;
+}
 /* services section end */
 /* skills section start */
 .progress-title{
