@@ -65,26 +65,28 @@ transition: all 0.2s;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    overflow: hidden;
 }
 .images img{
     width: 30vw;
     height: 20vw;
-    position: relative;
+    transition: all 1.4s ease;
 }
-.images .img:hover{
-    transform: scale(1.15);
-    transition: all 1s;
+.img:hover{
+    transform: scale(1.14);
 }
 .images2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;}
+    align-items: center;
+    overflow: hidden;
+}
 .images2 img{
-        width: 30vw;
-        height: 20vw;
-        position: relative;
-    }
-    .images2 .img:hover{
-        transform: scale(1.15);
-        transition: all 1s;
-    }
+    width: 30vw;
+    height: 20vw;
+    transition: all 1.4s ease;
+}
+.img:hover{
+    transform: scale(1.14);
+}
+
