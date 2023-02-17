@@ -5,9 +5,6 @@ background-color: rgb(0, 255, 255);
 .container{
     justify-content: space-between;
 }
-.navbar.container.nav-link a:hover{
-    color: black;
-}
 .navbar-brand{
 transition: all 0.2s;
 }
