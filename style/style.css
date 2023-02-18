@@ -83,7 +83,7 @@ transition: all 0.2s;
     transition: all 1.4s ease;
 }
 .img:hover{
-    transform: scale(1.14);
+    transform: scale(1.4);
 }
 .images2{
     display: grid;
