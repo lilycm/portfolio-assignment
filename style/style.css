@@ -32,7 +32,7 @@ transition: all 0.2s;
 .container-skills{
     width: 100%;
     height: 100vh;
-    background: #c7bdbd;
+    background: #f7f7f7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,14 +54,13 @@ transition: all 0.2s;
 .progress-bar div{
     height: 10px;
     border-radius: 5px;
-    width: 50%;
-    background: goldenrod;
+    width: 0%;
 }
 .progress-bar div span{
     height: 40px;
     width: 40px;
-    border-radius: 50px;
-    background: #222;
+    border-radius: 50%;
+    background: #c7bdbd;
     float: right;
     margin-top: -15px;
     margin-right: -20px;
@@ -69,6 +68,54 @@ transition: all 0.2s;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.html{
+    background: #e91e63;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: #984cd6;
+    animation: css 1s linear forwards;
+}
+.javascript{
+    background: #1e3de9;
+    animation: javascript 1s linear forwards;
+}
+.bootstrap{
+    background: #1ee979;
+    animation: bootstrap 1s linear forwards;
+}
+.html span{
+    border: 1px solid #e91e63;
+}
+.css span{
+    border: 1px solid #e91e63;
+}
+.javascript span{
+    border: 1px solid #e91e63;
+}
+.bootstrap span{
+    border: 1px solid #e91e63;
+}
+@keyframes html{
+    100%{
+        width: 96%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 97%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 95%;
+    }
+}
+@keyframes bootstrap{
+    100%{
+        width: 98%;
+    }
 }
 /* skills section end */
 /* portfolio section start */
