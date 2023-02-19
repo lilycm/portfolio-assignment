@@ -171,47 +171,4 @@ background-color: rgb(0, 255, 255);
 }
 /* portfolio section end */
 /* accordion section start */
-.accordion{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-#accordion1{
-    margin: 100px auto;
-    width: 600px;
-}
-#accordion1 li{
-list-style: none;
-width: 100%;
-margin-bottom: 10px;
-background: #ffffff;
-padding: 10px;
-}
-#accordion1 li label{
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    color: #1ee979;
-}
-#accordion1 li label span{
-    transform: rotate(90deg);
-    font-size: 22px;
-    color: green;
-}
-#accordion1 label + input[type="radio"]{
-    display: none;
-}
-#accordion1 .content{
-    padding: 0 10px;
-    line-height: 26px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s;
-}
-#accordion1 label + input[type="radio"]:checked + .content{
-    max-height: 400px;
-}
 
