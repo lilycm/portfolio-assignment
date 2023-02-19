@@ -170,4 +170,9 @@ background-color: rgb(0, 255, 255);
     transform: scale(1.14);
 }
 /* portfolio section end */
+/* accordion section start */
+.accordion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 
