@@ -84,52 +84,76 @@ background-color: rgb(0, 255, 255);
     justify-content: center;
     align-items: center;
 }
-.html{
+.web-design{
     background: #e91e63;
-    animation: html 1s linear forwards;
+    animation: web-design 1s linear forwards;
 }
-.css{
+.graphics{
     background: #984cd6;
-    animation: css 1s linear forwards;
+    animation: graphics 1s linear forwards;
 }
-.javascript{
+.photography{
     background: #1e3de9;
-    animation: javascript 1s linear forwards;
+    animation: photography 1s linear forwards;
 }
-.bootstrap{
+.audio-editing{
     background: #1ee979;
-    animation: bootstrap 1s linear forwards;
+    animation: audio-editing 1s linear forwards;
 }
-.html span{
+.video-editing{
+    background: #1ee979;
+    animation: video-editing 1s linear forwards;
+}
+.animation{
+    background: #1ebae9;
+    animation: animation 1s linear forwards;
+}
+.web-design span{
     border: 1px solid #e91e63;
 }
-.css span{
+.graphics span{
     border: 1px solid #e91e63;
 }
-.javascript span{
+.photography span{
     border: 1px solid #e91e63;
 }
-.bootstrap span{
+.audio-editing span{
     border: 1px solid #e91e63;
 }
-@keyframes html{
+.animation span{
+    border: 1px solid #e91e63;
+}
+.video-editing span{
+    border: 1px solid #e91e63;
+}
+@keyframes web-design{
     100%{
         width: 96%;
     }
 }
-@keyframes css{
+@keyframes graphics{
     100%{
         width: 90%;
     }
 }
-@keyframes javascript{
+@keyframes photography{
     100%{
         width: 95%;
     }
 }
-@keyframes bootstrap{
+@keyframes audio-editing{
     100%{
         width: 88%;
+    }
+}
+@keyframes animation{
+    100%{
+        width: 92%;
+    }
+}
+@keyframes video-editing{
+    100%{
+        width: 95%;
     }
 }
 /* skills section end */
