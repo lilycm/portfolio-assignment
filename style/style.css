@@ -173,7 +173,7 @@ background-color: rgb(0, 255, 255);
 /* accordion section start */
 /* footer section start */
 .footer{
-    background: #c390ec;
+    background: navy;
 }
 .footer .footer-item{
     display: grid;
@@ -188,10 +188,20 @@ background-color: rgb(0, 255, 255);
 .footer .footer-item .footer-link a{
     display: block;
     text-decoration: none;
-    color: #984cd6;
+    color: white;
 }
 .footer .footer-item .privacy a{
 text-decoration: none;
-color: #e91e63;
+color: white;
 display: block;
+}
+.footer .footer-item .privacy a:hover{
+text-decoration: underline;
+color: goldenrod;
+}
+.footer .footer-item .contact p{
+    color: #ffffff;
+}
+hr{
+    color: #f7f7f7;
 }
