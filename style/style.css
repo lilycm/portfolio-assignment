@@ -16,29 +16,50 @@ background-color: rgb(0, 255, 255);
 
 /* home section end */
 /* services section start */
+.works{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .container-work{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    width: 1450px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
 }
 .boxes{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 450px;
-    height: 450px;
-    border: solid 2px gold;
+    margin: 10px;
 }
 .box{
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 380px;
+   text-align: center;
 }
 .box.one{
-    background-color: blue;
+    background-color: rgb(241, 186, 186);
     z-index: 1;
-    position: absolute;
+}
+.box.one img{
+    width: 250px;
+    height: 150px;
+}
+.box.one a{
+    text-decoration: none;
+    color: white;
+    background: #1ebae9;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+.box.one a:hover{
+    background: white;
+    color: black;
+    border: 1px solid #1ebae9;
 }
 .box.two{
     position: absolute;
