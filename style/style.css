@@ -13,16 +13,7 @@ background-color: rgb(0, 255, 255);
     text-decoration: underline;
     color: #984cd6;
 }
-.lily{
-    transition: width 2s, height 2s, transform 2s;
-}
-.lily:hover h2{
-    transform: rotatex('360deg');
-}
-.nav-section h2 :hover{
-    transform: rotateX('360deg');
-    transition-duration: 1.5s;
-}
+
 /* home section end */
 /* services section start */
 .works{
