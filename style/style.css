@@ -368,9 +368,11 @@ color: goldenrod;
     }
     .skills{
         width: 100%;
+        text-align: center;
     }
     .container-skills .skills .progress-bar{
         width: 100%;
+        text-align: center;
     }
     .footer .footer-item{
         display: grid;
@@ -406,7 +408,7 @@ color: goldenrod;
         width: 100%;
         text-align: center;
         margin-left: 5px;
-        margin-top: 52px;
+        margin-top: 150px;
     }
     .home-section img{
         width: 45vw;
@@ -469,11 +471,32 @@ color: goldenrod;
         width: 100%;
         height: fit-content;
         margin-top: 30px;
+        align-items: center;
     }
     .skills{
         width: 100%;
+        text-align: center;
     }
     .container-skills .skills .progress-bar{
         width: 100%;
+        text-align: center;
+    }
+    .footer .footer-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .footer .footer-item .personal-info{
+        text-align: center;
+        margin: 0;
+    }
+    .footer .footer-item .footer-link{
+       text-align: center;
+    }
+    .footer .footer-item .privacy{
+        text-align: center;
+    }
+    .footer .footer-item .contact{
+        text-align: center;
     }
 }
