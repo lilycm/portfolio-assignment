@@ -390,6 +390,16 @@ hr{
         justify-content: center;
     }
     .footer .footer-item .personal-info{
-        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+    .footer .footer-item .footer-link{
+       text-align: center;
+    }
+    .footer .footer-item .privacy{
+        text-align: center;
+    }
+    .footer .footer-item .contact{
+        text-align: center;
     }
 }
