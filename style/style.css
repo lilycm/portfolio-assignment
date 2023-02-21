@@ -289,6 +289,13 @@ color: goldenrod;
 }
 hr{
     color: #f7f7f7;
+    width: 100%;
+}
+.footer .footer-item .contact img{
+    width: 5vw;
+}
+.footer .footer-item .contact .instagram{
+    width: 4vw;
 }
 /* media query for mobile */
 @media screen and (max-width:767px){
@@ -376,5 +383,13 @@ hr{
     }
     .container-skills .skills .progress-bar{
         width: 100%;
+    }
+    .footer .footer-item{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .footer .footer-item .personal-info{
+        align-items: center;
     }
 }
