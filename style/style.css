@@ -352,6 +352,10 @@ hr{
         height: 40vw;
         transition: all 1.4s ease;
     }
+    .container-work{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
     .container-skills{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
