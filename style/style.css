@@ -21,9 +21,15 @@ background-color: rgb(0, 255, 255);
     transform: rotateX('360deg');
     transition-duration: 1.5s;
 }
+.h-sec{
+    background-color: rgb(224, 183, 206);
+}
 .home-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.ab-sec{
+    background-color: #f0dcec;
 }
 .about{
     display: grid;
@@ -38,6 +44,9 @@ background-color: rgb(0, 255, 255);
 }
 /* home section end */
 /* services section start */
+.services-sec{
+    background-color: rgb(243, 207, 214);
+}
 .works{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -63,8 +72,9 @@ background-color: rgb(0, 255, 255);
    text-align: center;
 }
 .box.one{
-    background-color: rgb(241, 186, 186);
+    background-color: rgb(2, 212, 212);
     z-index: 1;
+    color: #ffffff;
 }
 .box.one img{
     width: 250px;
@@ -73,7 +83,7 @@ background-color: rgb(0, 255, 255);
 .box.one a{
     text-decoration: none;
     color: white;
-    background: #1ebae9;
+    background: #e92f16;
     border-radius: 5px;
     padding: 10px;
     font-size: 16px;
@@ -85,7 +95,7 @@ background-color: rgb(0, 255, 255);
 }
 .box.two{
     position: absolute;
-    background-color: blueviolet;
+    background-color: rgb(0, 38, 255);
     z-index: 0;
     transition: transform 2s;
 }
@@ -218,11 +228,17 @@ background-color: rgb(0, 255, 255);
 }
 /* skills section end */
 /* sample section start */
+.samp-sec{
+    background-color: rgb(255, 232, 224);
+}
 .works .card:hover{
     border: 1px solid goldenrod;
 }
 
 /* portfolio section start */
+.port-sec{
+    background-color: rgb(223, 222, 221);
+}
 .images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -243,6 +259,9 @@ background-color: rgb(0, 255, 255);
 
 /* portfolio section end */
 /* accordion section start */
+.accordion{
+    background-color: rgb(247, 199, 224);
+}
 .accordion-items{
     display: flex;
     flex-direction: column;
