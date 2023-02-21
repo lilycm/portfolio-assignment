@@ -29,6 +29,13 @@ background-color: rgb(0, 255, 255);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.about-body{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.home-page{
+    margin-top: 200px;
+}
 /* home section end */
 /* services section start */
 .works{
@@ -306,15 +313,17 @@ hr{
     }
     .home-section{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         justify-content: center;
     }
-    .home-section .home-page{
+   .home-page{
         width: 100%;
         text-align: center;
+        margin-left: 5px;
+        margin-top: 52px;
     }
     .home-section img{
-        width: 50vw;
+        width: 45vw;
     }
     .about{
         display: grid;
@@ -324,6 +333,7 @@ hr{
     }
     .about img{
         width: 50vw;
+        margin-left: 85px;
     }
     .about .about-body{
         width: 70vw;
