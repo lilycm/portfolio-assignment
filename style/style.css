@@ -292,8 +292,10 @@ hr{
 }
 /* media query for mobile */
 @media screen and (max-width:767px){
-    .navbar-nav{
-        text-align: center;
+    .navbar .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
     }
     .home-section{
         display: grid;
