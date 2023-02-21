@@ -336,8 +336,9 @@ hr{
         margin-left: 85px;
     }
     .about .about-body{
-        width: 70vw;
-        align-items: center;
+        width: 100%;
+        text-align: center;
+        padding: 0 50px;
     }
     .works{
         display: grid;
