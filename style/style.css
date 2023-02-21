@@ -95,7 +95,7 @@ background-color: rgb(0, 255, 255);
 }
 .box.two{
     position: absolute;
-    background-color: rgb(0, 38, 255);
+    background-color: rgb(255, 0, 157);
     z-index: 0;
     transition: transform 2s;
 }
@@ -155,15 +155,15 @@ background-color: rgb(0, 255, 255);
     align-items: center;
 }
 .web-design{
-    background: #e91e63;
+    background: #fd0681e1;
     animation: web-design 1s linear forwards;
 }
 .graphics{
-    background: #984cd6;
+    background: #a803f5;
     animation: graphics 1s linear forwards;
 }
 .photography{
-    background: #1e3de9;
+    background: #00fff2;
     animation: photography 1s linear forwards;
 }
 .audio-editing{
@@ -171,30 +171,30 @@ background-color: rgb(0, 255, 255);
     animation: audio-editing 1s linear forwards;
 }
 .video-editing{
-    background: #1ee979;
+    background: #fc7100;
     animation: video-editing 1s linear forwards;
 }
 .animation{
-    background: #1ebae9;
+    background: #09c4b4;
     animation: animation 1s linear forwards;
 }
 .web-design span{
-    border: 1px solid #e91e63;
+    border: 1px solid #fd0681e1;
 }
 .graphics span{
-    border: 1px solid #e91e63;
+    border: 1px solid #a803f5;
 }
 .photography span{
-    border: 1px solid #e91e63;
+    border: 1px solid #00fff2;
 }
 .audio-editing span{
-    border: 1px solid #e91e63;
+    border: 1px solid #1ee979;
 }
 .animation span{
-    border: 1px solid #e91e63;
+    border: 1px solid  #09c4b4;
 }
 .video-editing span{
-    border: 1px solid #e91e63;
+    border: 1px solid #fc7100;
 }
 @keyframes web-design{
     100%{
