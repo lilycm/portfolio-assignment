@@ -307,7 +307,7 @@ hr{
         text-align: center;
     }
     .home-section img{
-        width: 70vw;
+        width: 50vw;
     }
     .about{
         display: grid;
@@ -316,7 +316,7 @@ hr{
         align-items: center;
     }
     .about img{
-        width: 70vw;
+        width: 50vw;
     }
     .about .about-body{
         width: 70vw;
