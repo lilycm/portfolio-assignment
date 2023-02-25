@@ -10,16 +10,16 @@ body{
     height: 100%;
 }
 .container .navbar-brand:hover{
-    transform: rotateX('360deg');
+    transform: rotate('360deg');
     transition-duration: 1.5s;
 }
 .btn:hover{
 background-color: rgb(0, 255, 255);
-
 }
 .nav-item a:hover{
     text-decoration: underline;
     color: goldenrod;
+    transition: all 1.2s ease;
 }
 .navbar-brand img:hover{
     transform: rotateX('360deg');
@@ -337,6 +337,10 @@ color: goldenrod;
         text-align: center;
         margin-left: 5px;
         margin-top: 52px;
+    }
+    .home-page button{
+        padding: 6px;
+        margin-bottom: 16px;
     }
     .home-section img{
         width: 45vw;
