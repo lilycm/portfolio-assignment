@@ -243,12 +243,17 @@ background-color: rgb(0, 255, 255);
 .port-sec{
     background-color: rgb(223, 222, 221);
 }
+.picture{
+    overflow: hidden;
+}
+.picture img:hover{
+    transform: scale(1.2);
+}
 .images{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 
 }
 .images img{
@@ -258,9 +263,7 @@ background-color: rgb(0, 255, 255);
     margin: 20px 50px;
     cursor: pointer;
 }
-.img:hover{
-    transform: scale(1.2);
-}
+
 
 /* portfolio section end */
 /* accordion section start */
@@ -307,10 +310,10 @@ color: goldenrod;
     color: #ffffff;
 }
 .footer .footer-item .contact img{
-    width: 5vw;
+    width: 3vw;
 }
 .footer .footer-item .contact .instagram{
-    width: 4vw;
+    width: 2vw;
 }
 .footer .footer-item .copyright{
     text-align: center;
