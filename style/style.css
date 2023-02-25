@@ -18,23 +18,33 @@ background-color: rgb(0, 255, 255);
 }
 .nav-item a:hover{
    border-bottom: 2px solid goldenrod;
-    color: goldenrod;
     transition: all 1.2s ease;
+}
+.navbar-nav .nav-item a:hover{
+    color: goldenrod;
 }
 .navbar-brand img:hover{
     transform: rotateX('360deg');
     transition-duration: 1.5s;
 }
-
+.hire-me{
+    background-color: white;
+    color: #6d1d5c;
+    font-weight: bold;
+}
 .h-sec{
-    background-color: rgb(224, 183, 206);
+    background-color: #310230;
 }
 .home-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 .ab-sec{
-    background-color: #f0dcec;
+    background-color: #571549;
+}
+.menu{
+    background-color: #6e1680;
+    color: white;
 }
 .about{
     display: grid;
@@ -50,7 +60,7 @@ background-color: rgb(0, 255, 255);
 /* home section end */
 /* services section start */
 .services-sec{
-    background-color: rgb(243, 207, 214);
+    background-color: rgb(211, 128, 167);
 }
 .works{
     display: grid;
@@ -101,7 +111,7 @@ background-color: rgb(0, 255, 255);
 }
 .box.two{
     position: absolute;
-    background-color: rgb(255, 0, 157);
+    background-color: rgb(255, 153, 0);
     z-index: 0;
     transition: transform 1s;
 }
@@ -120,10 +130,12 @@ background-color: rgb(0, 255, 255);
 }
 /* services section end */
 /* skills section start */
+.skill-sec{
+    background-color: rgb(211, 128, 167);
+}
 .container-skills{
     width: 100%;
     height: 100vh;
-    background: #f7f7f7;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,7 +149,6 @@ background-color: rgb(0, 255, 255);
     font-size: 36px;
 }
 .progress-bar{
-    background-color: #f7f7f7;
     width: 1000px;
     height: 50px;
     border-radius: 5px;
@@ -235,7 +246,7 @@ background-color: rgb(0, 255, 255);
 /* skills section end */
 /* sample section start */
 .samp-sec{
-    background-color: rgb(255, 232, 224);
+    background-color: rgb(211, 128, 167);
 }
 .works .card:hover{
     border: 1px solid goldenrod;
@@ -243,7 +254,7 @@ background-color: rgb(0, 255, 255);
 
 /* portfolio section start */
 .port-sec{
-    background-color: rgb(223, 222, 221);
+    background-color: rgb(211, 128, 167);
 }
 .picture{
     overflow: hidden;
@@ -277,11 +288,11 @@ background-color: rgb(0, 255, 255);
     margin: 10px;
 }
 .ques-ans{
-    background-color: rgb(223, 222, 221);
+    background-color: rgb(211, 128, 167);
 }
 /* footer section start */
 .footer{
-    background: rgb(121, 0, 80);
+    background: #5b0d6b;
 }
 .footer .footer-item{
     display: grid;
