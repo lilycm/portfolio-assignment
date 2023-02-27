@@ -108,6 +108,21 @@ background-color: rgb(0, 255, 255);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+.home-page h2 span{
+    font-size: 90px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 183, 0);
+    background: url(/images/color-multiple.png);
+    -webkit-background-clip: text;
+    line-height: 140px;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;  
+    }
+}
 .ab-sec{
     background-color: #571549;
 }
@@ -267,7 +282,7 @@ background-color: rgb(0, 255, 255);
 }
 .animation{
     background: #09c4b4;
-    animation: animation 3s linear infinite;
+    animation: animation 7s linear infinite;
 }
 .web-design span{
     border: 1px solid #fd0681e1;
@@ -426,6 +441,16 @@ color: goldenrod;
         margin-left: 5px;
         margin-top: 52px;
     }
+    .home-page h1 span{
+        font-size: 140px;
+        color: transparent;
+        -webkit-text-stroke: 1px rgb(255, 183, 0);
+        background: url(/images/color-multiple.png);
+        -webkit-background-clip: text;
+        line-height: 50px;
+        background-position: 0 0;
+        animation: back 20s linear infinite;
+    }
     .home-page button{
         padding: 6px;
         margin-bottom: 16px;
@@ -443,6 +468,12 @@ color: goldenrod;
         width: 50vw;
         margin-left: 85px;
     }
+    .about .circle img{
+        border: goldenrod 3px solid;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+      }
     .about .about-body{
         width: 100%;
         text-align: center;
