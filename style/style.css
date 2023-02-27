@@ -248,22 +248,22 @@ background-color: rgb(0, 255, 255);
 }
 .web-design{
     background: #fd0681e1;
-    animation: web-design 3s linear infinite;
+    animation: web-design 7s linear infinite;
 }
 .graphics{
     background: #a803f5;
-    animation: graphics 3s linear infinite;}
+    animation: graphics 7s linear infinite;}
 .photography{
     background: #00fff2;
-    animation: photography 3s linear infinite;
+    animation: photography 7s linear infinite;
 }
 .audio-editing{
     background: #1ee979;
-    animation: audio-editing 3s linear infinite;
+    animation: audio-editing 7s linear infinite;
 }
 .video-editing{
     background: #fc7100;
-    animation: video-editing 3s linear infinite;
+    animation: video-editing 7s linear infinite;
 }
 .animation{
     background: #09c4b4;
