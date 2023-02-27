@@ -9,6 +9,75 @@ body{
     width: 100%;
     height: 100%;
 }
+/* first section start */
+/* .hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/water.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.content{
+    color: azure;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+}
+.content h1{
+    font-size: 70px;
+}
+.bubble img{
+width: 50px;
+animation: bubble 7s linear infinite;
+}
+.bubble{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+.bubble img:nth-child(1){
+    animation-delay: 2s;
+}
+.bubble img:nth-child(2){
+    animation-delay: 1s;
+}
+.bubble img:nth-child(3){
+    animation-delay: 3s;
+}
+.bubble img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.bubble img:nth-child(5){
+    animation-delay: 3s;
+}
+.bubble img:nth-child(6){
+    animation-delay: 6s;
+}
+.bubble img:nth-child(7){
+    animation-delay: 7s;
+} */
 .container .navbar-brand:hover{
     transform: rotate('360deg');
     transition-duration: 1.5s;
@@ -66,7 +135,7 @@ background-color: rgb(0, 255, 255);
 /* about section end */
 /* services section start */
 .services-sec{
-    background-color: rgb(211, 128, 167);
+    background-color: #571549;
 }
 .works{
     display: grid;
@@ -88,7 +157,7 @@ background-color: rgb(0, 255, 255);
     margin: 10px;
 }
 .box{
-    width: 260px;
+    width: 290px;
     height: 440px;
    text-align: center;
 }
@@ -99,8 +168,8 @@ background-color: rgb(0, 255, 255);
    
 }
 .box.one img{
-    width: 260px;
-    height: 150px;
+    width: 290px;
+    height: 170px;
 }
 .box.one a{
     text-decoration: none;
@@ -137,7 +206,7 @@ background-color: rgb(0, 255, 255);
 /* services section end */
 /* skills section start */
 .skill-sec{
-    background-color: rgb(211, 128, 167);
+    background-color: #571549;
 }
 .container-skills{
     width: 100%;
@@ -179,27 +248,26 @@ background-color: rgb(0, 255, 255);
 }
 .web-design{
     background: #fd0681e1;
-    animation: web-design 1s linear forwards;
+    animation: web-design 3s linear infinite;
 }
 .graphics{
     background: #a803f5;
-    animation: graphics 1s linear forwards;
-}
+    animation: graphics 3s linear infinite;}
 .photography{
     background: #00fff2;
-    animation: photography 1s linear forwards;
+    animation: photography 3s linear infinite;
 }
 .audio-editing{
     background: #1ee979;
-    animation: audio-editing 1s linear forwards;
+    animation: audio-editing 3s linear infinite;
 }
 .video-editing{
     background: #fc7100;
-    animation: video-editing 1s linear forwards;
+    animation: video-editing 3s linear infinite;
 }
 .animation{
     background: #09c4b4;
-    animation: animation 1s linear forwards;
+    animation: animation 3s linear infinite;
 }
 .web-design span{
     border: 1px solid #fd0681e1;
@@ -252,15 +320,18 @@ background-color: rgb(0, 255, 255);
 /* skills section end */
 /* sample section start */
 .samp-sec{
-    background-color: rgb(211, 128, 167);
+    background-color: #571549;
 }
+
 .works .card:hover{
-    border: 1px solid rgb(85, 2, 85);
+    border: 2px solid rgb(255, 210, 11);
+    transition-duration: 1.2s;
+    
 }
 
 /* portfolio section start */
 .port-sec{
-    background-color: rgb(211, 128, 167);
+    background-color: #571549;
 }
 .picture{
     overflow: hidden;
@@ -294,11 +365,11 @@ background-color: rgb(0, 255, 255);
     margin: 10px;
 }
 .ques-ans{
-    background-color: rgb(211, 128, 167);
+    background-color: #571549;
 }
 /* footer section start */
 .footer{
-    background: #5b0d6b;
+    background: #410934;
 }
 .footer .footer-item{
     display: grid;
